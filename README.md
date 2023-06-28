@@ -10,7 +10,7 @@ chainlit run LangChain_ChainLit_OpenAI.py -w
 
 Part 2:
 
-Above 'Part 1' only relies on LLM's (GPT-3.5) knowledge. But, With the help of Agents, we can integrate our LLM with search tool, calculator tool and many other tools. Here we have integrated search tool and calculator tool with OpenAI's GPT-3.5 turbo and used chainlit for UI. After running 'requirements.txt' please run following command to start the chat UI:
+Above 'Part 1' only relies on LLM's (GPT-3.5) knowledge. But, With the help of Agents, we can integrate our LLM with external world and can even have internet access. We can integrate our LLM with different tools such as search tool, calculator tool and many other tools. Here we have integrated search tool and calculator tool with OpenAI's GPT-3.5 turbo and used chainlit for UI. After running 'requirements.txt' please run following command to start the chat UI:
 
 chainlit LangChain_Agents.py -w
 
