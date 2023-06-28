@@ -2,3 +2,4 @@ langchain==0.0.215
 chainlit==0.4.101
 python-dotenv==1.0.0
 openai
+google-search-results
